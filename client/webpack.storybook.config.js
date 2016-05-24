@@ -16,7 +16,8 @@ config.module.loaders.push(
       'postcss-loader',
     ],
     include: path.resolve(__dirname, '../'),
-  }
+  },
+  { test: /\.(jpe?g|png|gif|ico)$/, loader: 'url?limit=10000' }
 );
 config.output = {};
 config.output.publicPath = '/static/';
