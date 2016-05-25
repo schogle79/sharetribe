@@ -1295,15 +1295,6 @@ Based on Rails routes of Kassi::Application
 // social_media_admin_community => (/:locale)/admin/communities/:id/social_media(.:format)
   // function(id, options)
   social_media_admin_community_path: Utils.route(["id"], ["locale","format"], [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"admin",false],[2,[7,"/",false],[2,[6,"communities",false],[2,[7,"/",false],[2,[3,"id",false],[2,[7,"/",false],[2,[6,"social_media",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]]]], {}),
-// styleguide => /styleguide(.:format)
-  // function(options)
-  styleguide_path: Utils.route([], ["format"], [2,[7,"/",false],[2,[6,"styleguide",false],[1,[2,[8,".",false],[3,"format",false]],false]]], {}),
-// styleguide_example_server_side_redux_app => /styleguide/example_server_side_redux_app(.:format)
-  // function(options)
-  styleguide_example_server_side_redux_app_path: Utils.route([], ["format"], [2,[7,"/",false],[2,[6,"styleguide",false],[2,[7,"/",false],[2,[6,"example_server_side_redux_app",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]], {}),
-// styleguide_getting_started_guide => /styleguide/getting_started_guide(/*all)(.:format)
-  // function(options)
-  styleguide_getting_started_guide_path: Utils.route([], ["all","format"], [2,[7,"/",false],[2,[6,"styleguide",false],[2,[7,"/",false],[2,[6,"getting_started_guide",false],[2,[1,[2,[7,"/",false],[5,[3,"*all",false],false]],false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]], {}),
 // success_paypal_service_checkout_orders => (/:locale)/paypal_service/checkout_orders/success(.:format)
   // function(options)
   success_paypal_service_checkout_orders_path: Utils.route([], ["locale","format"], [2,[1,[2,[7,"/",false],[3,"locale",false]],false],[2,[7,"/",false],[2,[6,"paypal_service",false],[2,[7,"/",false],[2,[6,"checkout_orders",false],[2,[7,"/",false],[2,[6,"success",false],[1,[2,[8,".",false],[3,"format",false]],false]]]]]]]], {}),
